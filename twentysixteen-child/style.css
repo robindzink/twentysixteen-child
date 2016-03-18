@@ -1,0 +1,126 @@
+/*
+Theme Name: Twenty Sixteen Child
+Author: Robin Zink
+Description: Twenty Sixteen Child is a child theme for Jujunation enablation.
+Template: twentysixteen
+Version: 1.00
+*/
+
+@import url("../twentysixteen/style.css");
+
+.site {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.site-header {
+    padding: 0;
+}
+
+.header-image {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+.site-header-main {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.site-inner {
+    max-width: 1200px;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.home  .site-inner{
+	background-color: #fff;
+}
+
+.frontlinks {
+	display: block;
+	margin:auto;
+}
+
+.home ul a {
+    display: block;
+    padding: .5em 1em;
+    outline: 0;
+    box-shadow: 0 0px 0 0 currentColor;
+	color: black;
+}
+
+.home  li {
+    list-style-type: none;
+}
+
+.home ul {
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+}
+
+.home ul a:hover,
+.home ul  a:focus 
+{
+    outline: 2px solid black;
+}
+
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.post-password-form label,
+.main-navigation,
+.post-navigation ,
+.post-navigation .post-title,
+.pagination,
+.image-navigation,
+.comment-navigation,
+.site .skip-link,
+.widget .widget-title,
+.widget_recent_entries .post-date,
+.widget_rss .rss-date,
+.widget_rss cite,
+.tagcloud a,
+.site-title,
+.entry-title,
+.entry-footer,
+.sticky-post,
+.page-title,
+.page-links,
+.comments-title,
+.comment-reply-title,
+.comment-metadata,
+.pingback .edit-link,
+.comment-reply-link,
+.comment-form label,
+.no-comments,
+.site-footer .site-title:after,
+.widecolumn label,
+.widecolumn .mu_register label {
+	font-family: 'Indie Flower', cursive;
+}
+
+/*.site-title,
+.entry-title {
+    font-family: 'Indie Flower', cursive;
+}*/
+
+body,
+button,
+input,
+select,
+textarea,
+.required{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
